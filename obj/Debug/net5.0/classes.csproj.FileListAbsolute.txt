@@ -3,3 +3,14 @@ C:\Users\footlady30\Desktop\C#_tutorial\classes\obj\Debug\net5.0\classes.Generat
 C:\Users\footlady30\Desktop\C#_tutorial\classes\obj\Debug\net5.0\classes.AssemblyInfoInputs.cache
 C:\Users\footlady30\Desktop\C#_tutorial\classes\obj\Debug\net5.0\classes.AssemblyInfo.cs
 C:\Users\footlady30\Desktop\C#_tutorial\classes\obj\Debug\net5.0\classes.csproj.CoreCompileInputs.cache
+C:\Users\footlady30\Desktop\C#_tutorial\classes\bin\Debug\net5.0\classes.exe
+C:\Users\footlady30\Desktop\C#_tutorial\classes\bin\Debug\net5.0\classes.deps.json
+C:\Users\footlady30\Desktop\C#_tutorial\classes\bin\Debug\net5.0\classes.runtimeconfig.json
+C:\Users\footlady30\Desktop\C#_tutorial\classes\bin\Debug\net5.0\classes.runtimeconfig.dev.json
+C:\Users\footlady30\Desktop\C#_tutorial\classes\bin\Debug\net5.0\classes.dll
+C:\Users\footlady30\Desktop\C#_tutorial\classes\bin\Debug\net5.0\ref\classes.dll
+C:\Users\footlady30\Desktop\C#_tutorial\classes\bin\Debug\net5.0\classes.pdb
+C:\Users\footlady30\Desktop\C#_tutorial\classes\obj\Debug\net5.0\classes.dll
+C:\Users\footlady30\Desktop\C#_tutorial\classes\obj\Debug\net5.0\ref\classes.dll
+C:\Users\footlady30\Desktop\C#_tutorial\classes\obj\Debug\net5.0\classes.pdb
+C:\Users\footlady30\Desktop\C#_tutorial\classes\obj\Debug\net5.0\classes.genruntimeconfig.cache
