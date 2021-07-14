@@ -23,6 +23,17 @@ namespace classes
 
         private List<Transaction> allTransactions = new List<Transaction>();
 
+        private static int accountNumberSeed = 1234567890;
+
+        public BankAccount(string name, decimal initialBalance)
+        {
+            this.Owner = name;
+            this.Balance = initialBalance;
+            this.Number = accountNumberSeed.ToString();
+            accountNumberSeed++;
+        }
+
+
         public void MakeDeposit(decimal amout, DateTime date, string note)
         {
             if (amount <= 0)
