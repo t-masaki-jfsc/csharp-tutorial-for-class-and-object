@@ -38,6 +38,16 @@ namespace classes
         {
             if (amount <= 0)
             {
+                throw new ArgumentOutOfRangeException(nameof(amout), "Amount of deposit must be positive");
+            }
+            var deposit = new Transaction(amount, date, note);
+            allTransactions.Add(deposit);
+        }
+
+        public void MakeWithdrawal(decimal amount, DateTime date, string note)
+        {
+            if (amount <= 0)
+            {
                 throw new ArgumentOutOfRangeException(nameof(amout), "Amount of withdrawal must be positive");
             }
             if (Balance - amout < 0)
@@ -46,10 +56,6 @@ namespace classes
             }
             var withdrawal = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawal);
-        }
-
-        public void MakeWithdrawal(decimal amount, DateTime date, string note)
-        {
         }
     }
 }
