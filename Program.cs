@@ -39,6 +39,21 @@ namespace classes
                 Console.WriteLine("Exception cautgth trying to overdraw");
                 Console.WriteLine(e.ToString());
             }
+
+            // Test for GiftCard.
+            var GiftCard = new GiftCardAccount("gift card", 100, 50);
+            GiftCard.MakeWithdrawal(20, DateTime.Now, "get expensive coffee");
+            GiftCard.MakeWithdrawal(50, DateTime.Now, "buy groceries");
+            GiftCard.PerformMonthEndTransactions();
+            // can make addtional deposits:
+            GiftCard.MakeDeposit(27.50m, DateTime.Now, "add some additional spending money");
+            Console.WriteLine(GiftCard.GetAccountHistory());
+
+            var savings = new InterestEarningAccount("saveing account", 10000);
+            savings.MakeDeposit(750, DateTime.Now, "save some money");
+            savings.MakeDeposit(1250, DateTime.Now, "Add more savings");
+            savings.MakeWithdrawal(250, DateTime.Now, "Needed to pay monthly bills");
+            Console.WriteLine(savings.GetAccountHistory());
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace classes
 {
-    class GetCardAccount : BankAccount
+    class GiftCardAccount : BankAccount
     {
         private decimal _monthlyDeposit = 0m;
 
@@ -15,8 +15,7 @@ namespace classes
         {
             if (_monthlyDeposit != 0)
             {
-                MakeDeposit(_
-                    , DateTime.Now, "Add monthly deposit");
+                MakeDeposit(_monthlyDeposit, DateTime.Now, "Add monthly deposit");
             }
         }
     }
