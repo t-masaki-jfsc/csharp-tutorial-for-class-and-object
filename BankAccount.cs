@@ -73,5 +73,7 @@ namespace classes
 
             return report.ToString();
         }
+
+        public virtual void PerformMonthEndTransactions() { }
     }
 }
