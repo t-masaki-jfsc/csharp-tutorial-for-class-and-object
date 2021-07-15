@@ -42,9 +42,9 @@ namespace classes
 
             // Test for GiftCard.
             var GiftCard = new GiftCardAccount("gift card", 100, 50);
-            giftCard.MakeWithDrawal(20, DateTime.Now, "get expensive coffee");
-            giftCard.Makewithdrawal(50, DateTime.Now, "buy groceries");
-            giftCard.PerformMonthEndTransactions();
+            GiftCard.MakeWithdrawal(20, DateTime.Now, "get expensive coffee");
+            GiftCard.MakeWithdrawal(50, DateTime.Now, "buy groceries");
+            GiftCard.PerformMonthEndTransactions();
             // can make addtional deposits:
             GiftCard.MakeDeposit(27.50m, DateTime.Now, "add some additional spending money");
             Console.WriteLine(GiftCard.GetAccountHistory());
