@@ -41,13 +41,13 @@ namespace classes
             }
 
             // Test for GiftCard.
-            var GiftCard = new GiftCardAccount("gift card", 100, 50);
-            GiftCard.MakeWithdrawal(20, DateTime.Now, "get expensive coffee");
-            GiftCard.MakeWithdrawal(50, DateTime.Now, "buy groceries");
-            GiftCard.PerformMonthEndTransactions();
+            var giftCard = new GiftCardAccount("gift card", 100, 50);
+            giftCard.MakeWithdrawal(20, DateTime.Now, "get expensive coffee");
+            giftCard.MakeWithdrawal(50, DateTime.Now, "buy groceries");
+            giftCard.PerformMonthEndTransactions();
             // can make addtional deposits:
-            GiftCard.MakeDeposit(27.50m, DateTime.Now, "add some additional spending money");
-            Console.WriteLine(GiftCard.GetAccountHistory());
+            giftCard.MakeDeposit(27.50m, DateTime.Now, "add some additional spending money");
+            Console.WriteLine(giftCard.GetAccountHistory());
 
             var savings = new InterestEarningAccount("saveing account", 10000);
             savings.MakeDeposit(750, DateTime.Now, "save some money");
